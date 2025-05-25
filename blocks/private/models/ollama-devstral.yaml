@@ -1,7 +1,12 @@
-- name: ollama-devstral
-  provider: ollama
-  model: devstral:latest
-  roles:
-    - chat
-    - edit
-    - apply
+name: ollama-devstral
+version: 0.0.1
+schema: v1
+
+models: 
+  - name: ollama-devstral
+    provider: ollama
+    model: devstral:latest
+    roles:
+      - chat
+      - edit
+      - apply
