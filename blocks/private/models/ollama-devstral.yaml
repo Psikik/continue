@@ -1,0 +1,7 @@
+- name: ollama-devstral
+  provider: ollama
+  model: devstral:latest
+  roles:
+    - chat
+    - edit
+    - apply
