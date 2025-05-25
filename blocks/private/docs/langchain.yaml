@@ -1,0 +1,6 @@
+name: Langchain Docs
+version: 0.0.1
+schema: v1
+docs:
+  - name: Langchain
+    startUrl: https://python.langchain.com/api_reference/
